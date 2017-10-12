@@ -20,7 +20,7 @@ class Application
   #   end
   # end
 
-    if num_1==num_2 && num_2==num_3
+    if Time < 12
       resp.write "Morning"
     else
       resp.write "Afternoon"
